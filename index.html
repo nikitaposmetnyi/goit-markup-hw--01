@@ -5,91 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    
 </head>
-<body>
+<body class="page">
+   
     <!-- Шапка проекта -->
-<header>
-    <nav>
-        <a href="">WebStudio</a>
-        <ul>
-            <li>
-                <a href="">Студія</a>
-            </li>
-            <li>
-                <a href="">Портфоліо</a>
-            </li>
-            <li>
-                <a href="">Контакти</a>
-            </li>
-        </ul>
+<header class="page-header">
+    <nav class="site nav">
+         <a class="nav-logo-web" href="./index.html">
+            Web
+            <span class="nav-logo-studio">
+            Studio
+            </span>
+         </a>
     </nav>
-<div>
-    <ul>
-        <li>
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-                <a href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
+
+        <ul class="nav-elements list">
+            <li class="nav-element"><a class="link" href="./index.html" rel="nofollow noreferrer noopener">Студія</a></li>
+            <li class="nav-element"><a class="link" href="./portfolio.html" rel="nofollow noreferrer noopener">Портфоліо</a></li>
+            <li class="nav-element"><a class="link" href="#">Контакти</a></li>
+        </ul>
+   
+<div class="nav-contacts">
+    <ul class="nav-elements">
+     <li class="nav-element">
+         <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+     </li>
+     <li class="nav-element">
+         <a class="link" href="tel:+380961111111" >+38 096 111 11 11</a>
+     </li>
     </ul>
 </div>
-
 </header>    
 
 
 <!-- Основний контент -->
 <main>
-
-        <section>
-            <h1>ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button type="button" name="button">
+        <!-- Герой -->
+        <section class="hero">
+            <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
+            <button class="hero-button" type="button" name="button">
                 Замовити послугу
             </button>
         </section>
  
-<section>
-    <h2>Заголовок секції 1</h2>
+<section class="features">
+    <h2 class="visually-hidden">Заголовок секції 1</h2>
 
-    <ul>
+    <ul class="features-list">
      <li>
-         <h3>
+         <h3 class="title">
              УВАГА ДО ДЕТАЛЕЙ
          </h3>
-         <p>
+         <p class="subtitle">
              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
          </p>
      </li>
      <li>
-         <h3>
+         <h3 class="title">
              ПУНКТУАЛЬНІСТЬ            
          </h3>
-         <p>
+         <p class="subtitle">
              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.         
         </p>
      </li>
      <li>
-         <h3>
+         <h3 class="title">
              ПЛАНУВАННЯ
          </h3>
-         <p>
+         <p class="subtitle">
              Так само консультація з широким активом значною мірою зумовлює.
          </p>
      </li>
      <li>
-         <h3>
+         <h3 class="title" >
              СУЧАСНІ ТЕХНОЛОГІЇ
          </h3>
-         <p>
+         <p class="subtitle">
              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
          </p>
      </li>
     </ul>
  </section>
  
- <section>
-     <h2>Чим ми займаємося</h2>
+ <section class="work">
+     <h2 class="work-title">Чим ми займаємося</h2>
  
-     <ul>
+     <ul class="work-list">
          <li>
              <img 
              src="./images/What_we_do/box1.jpeg" 
@@ -114,8 +117,8 @@
      </ul>
  </section>
  
- <section>
-     <h2>Наша команда</h2>
+ <section class="team">
+     <h2 class="team-title">Наша команда</h2>
      <ul>
          <li>
              <img 

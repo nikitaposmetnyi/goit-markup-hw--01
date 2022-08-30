@@ -1,0 +1,120 @@
+:root {
+    --header-white-color:#FFFFFF;
+    --sections-bg-color:#2F303A;
+    --features-works-bg-color: #F5F5F5;
+    --team-bg-color: #F5F4FA;
+
+    --accent-color:#2196F3;
+
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+    --black-text-color: #000000;
+    --address-text-color: rgba(255, 255, 255, 0.6);
+
+}
+
+body {
+
+    font-family: 'Rototo', sans-serif ;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 400;
+    color: var(--primary-text-color);
+}
+
+/* Page-header */
+
+.nav-logo-web {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.nav-logo-studio {
+    color: var(--black-text-color);
+    text-decoration: none
+}
+
+/* Site-nav */
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.nav-elements .link {
+    color: var(--primary-text-color);
+}
+.nav-elements .link.current {
+    color: var;!!!!! Вр емяночка
+}
+
+
+.nav-elements .link:hover,
+.nav-elements .link:focus {
+  color: var(--accent-color);
+}
+
+.nav-contacts .link {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.nav-contacts .link:hover,
+.nav-contacts .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero */
+
+.visually-hidden {
+    visibility: hidden;
+}
+
+.hero-title,
+.features-title,
+.work-title,
+.team-title, {
+    color: var(--primary-text-color);
+}
+
+
+/* Features */
+ 
+.features-list .title {
+    color: var(--primary-text-color)
+}
+.features-list .subtitle {
+    color: var(--secondary-text-color)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Button */
+
+.hero-button {
+    color: var(--header-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer; 
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+;
+}
